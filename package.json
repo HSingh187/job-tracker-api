@@ -1,0 +1,24 @@
+{
+  "name": "job-tracker-api",
+  "version": "1.0.0",
+  "description": "Job Tracker API with Node.js and PostgreSQL",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Your Name",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "pg": "^8.16.2",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
