@@ -130,9 +130,4 @@ Just open index.html in your browser (double-click or use VS Code Live Server).
 
 For any issues or contributions, feel free to open an issue or pull request on the repository.
 
-```
 
----
-
-Let me know if you'd like a downloadable `.md` file too — I can generate it instantly for you!
-```
