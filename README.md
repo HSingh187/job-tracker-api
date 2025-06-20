@@ -1,8 +1,3 @@
-Sure! Here's the full and polished `README.md` content for your **Job Tracker API** project — copy and paste this into a file named `README.md` in your project root:
-
----
-
-````markdown
 # 🧠 Job Tracker API
 
 This project is a simple Job Application Tracker built using **Node.js**, **Express**, and **PostgreSQL**. It allows you to create, read, update, and delete job applications through a RESTful API.
