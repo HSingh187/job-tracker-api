@@ -4,6 +4,15 @@ This project is a simple Job Application Tracker built using **Node.js**, **Expr
 
 ---
 
+### ✅ Features
+
+- Add/update/delete job applications
+- View all applications
+- Persistent PostgreSQL storage
+- Complete test coverage (unit + API + integration)
+- Clean RESTful API structure
+
+
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the Repository
@@ -156,20 +165,18 @@ For security reasons, .env and .env.test are not included in the repository.
 
 To run the project, create the following files in the root directory:
 
-✅ .env.example
-env
-Copy
-Edit
+✅ `.env.example`
+
 PORT=3001
 DB_HOST=localhost
 DB_USER=your_postgres_user
 DB_PASSWORD=your_postgres_password
 DB_NAME=jobtracker
 DB_DIALECT=postgres
-✅ .env.test.example
-env
-Copy
-Edit
+
+
+✅ `.env.test.example`
+
 TEST_DATABASE_URL=postgres://your_user:your_pass@localhost:5432/job_tracker_test
 
 
