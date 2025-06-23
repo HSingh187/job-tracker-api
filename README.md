@@ -126,6 +126,71 @@ Just open index.html in your browser (double-click or use VS Code Live Server).
 
 ---
 
+## ✅ Testing Summary
+
+This project includes unit, integration, and API tests to ensure full coverage of the Job Tracker API functionality.
+
+### 🧪 Types of Tests
+
+| Type        | Description                                                          | File                               |
+| ----------- | -------------------------------------------------------------------- | ---------------------------------- |
+| Unit        | Tests pure logic functions (e.g., job validation)                    | `tests/unit/jobValidation.test.js` |
+| Integration | Verifies interaction with PostgreSQL using raw SQL queries           | `tests/integration/db.test.js`     |
+| API         | Tests API endpoints using Supertest and simulates real HTTP requests | `tests/api/jobsApi.test.js`        |
+
+---
+
+### ✅ How to Run Tests
+
+Install dependencies:
+
+```bash
+npm install
+
+npm run test
+
+npm run test:coverage
+
+📁 Environment Variables
+For security reasons, .env and .env.test are not included in the repository.
+
+To run the project, create the following files in the root directory:
+
+✅ .env.example
+env
+Copy
+Edit
+PORT=3001
+DB_HOST=localhost
+DB_USER=your_postgres_user
+DB_PASSWORD=your_postgres_password
+DB_NAME=jobtracker
+DB_DIALECT=postgres
+✅ .env.test.example
+env
+Copy
+Edit
+TEST_DATABASE_URL=postgres://your_user:your_pass@localhost:5432/job_tracker_test
+
+
+### 📊 Test Coverage
+
+This project maintains high test coverage through unit, integration, and API tests.
+
+#### ✅ Terminal Coverage Output
+
+This is the Jest terminal summary after running `npm run test:coverage`:
+
+![Terminal Coverage](./coverage-screenshot-terminal.png)
+
+---
+
+#### ✅ HTML Visual Coverage Report
+
+This screenshot was taken from `coverage/lcov-report/index.html`:
+
+![HTML Coverage](./coverage-screenshot-html.png)
+
 ## 📣 Contact
 
 For any issues or contributions, feel free to open an issue or pull request on the repository.

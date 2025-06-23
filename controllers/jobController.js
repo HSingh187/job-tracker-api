@@ -35,9 +35,18 @@ exports.updateJob = async (req, res) => {
 exports.deleteJob = async (req, res) => {
   try {
     const { id } = req.params;
+
+    // Check if the job exists first
+    const job = await JobApplication.findByPk(id);
+    if (!job) {
+      return res.status(404).json({ error: 'Job not found' });
+    }
+
+    // If exists, delete it
     await JobApplication.destroy({ where: { id } });
-    res.json({ message: 'Job deleted' });
+    res.status(200).json({ message: 'Job deleted' });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 };
+
