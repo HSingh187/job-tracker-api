@@ -188,7 +188,7 @@ This project maintains high test coverage through unit, integration, and API tes
 
 This is the Jest terminal summary after running `npm run test:coverage`:
 
-![Terminal Coverage](./coverage-screenshot-terminal.png)
+![Terminal Coverage](coverage-screenshot-terminal.png)
 
 ---
 
@@ -196,7 +196,7 @@ This is the Jest terminal summary after running `npm run test:coverage`:
 
 This screenshot was taken from `coverage/lcov-report/index.html`:
 
-![HTML Coverage](./coverage-screenshot-html.png)
+![HTML Coverage](coverage-screenshot-html.png)
 
 ## 📣 Contact
 
