@@ -159,6 +159,7 @@ npm install
 npm run test
 
 npm run test:coverage
+```
 
 📁 Environment Variables
 For security reasons, .env and .env.test are not included in the repository.
@@ -179,10 +180,11 @@ DB_DIALECT=postgres
 
 TEST_DATABASE_URL=postgres://your_user:your_pass@localhost:5432/job_tracker_test
 
-
+---
 ### 📊 Test Coverage
 
 This project maintains high test coverage through unit, integration, and API tests.
+---
 
 #### ✅ Terminal Coverage Output
 
@@ -197,6 +199,7 @@ This is the Jest terminal summary after running `npm run test:coverage`:
 This screenshot was taken from `coverage/lcov-report/index.html`:
 
 ![HTML Coverage](coverage-screenshot-html.png)
+---
 
 
 ## 📣 Contact
