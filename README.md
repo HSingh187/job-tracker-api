@@ -188,15 +188,15 @@ This project maintains high test coverage through unit, integration, and API tes
 
 This is the Jest terminal summary after running `npm run test:coverage`:
 
-![Terminal Coverage](coverage-screenshot-terminal.png)
-
+![Terminal Coverage](https://raw.githubusercontent.com/HSingh187/job-tracker-api/main/coverage-screenshot-terminal.png)
 ---
 
 #### ✅ HTML Visual Coverage Report
 
 This screenshot was taken from `coverage/lcov-report/index.html`:
 
-![HTML Coverage](coverage-screenshot-html.png)
+![HTML Coverage](https://raw.githubusercontent.com/HSingh187/job-tracker-api/main/coverage-screenshot-html.png)
+
 
 ## 📣 Contact
 
